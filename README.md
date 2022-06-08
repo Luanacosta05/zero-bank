@@ -4,8 +4,6 @@ This project tests the website http://zero.webappsecurity.com using [Cypress.io]
 
 It showcases the use of:
 
-- AppAction Model on Login
-- Resuable Web Selectors
 - The Cypress GUI tool
 - The Cypress command line tool
 - Docker to self contain the application and require no pre-requisites
