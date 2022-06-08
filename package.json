@@ -1,18 +1,27 @@
 {
   "name": "cypress",
   "version": "1.0.0",
-  "description": "Zero Bank Smoke Test",
+  "_video": false,
+  "videoCompression": 0,
+  "trashAssetsBeforeRuns": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luanacosta05/zero-bank",
+    "private": true
+  },
+
+  "description": "Zero Bank Smoke Tests",
   "main": "index.js",
   "scripts": {
-    "cy:test": "cypress run",
-    "cypress:open": "cypress open",
-    "cy:record": "cypress run --record --key 2fba11ac-fc84-4b6d-a795-9f452d3ffa15"
-
+      "cy:test": "cypress run",
+      "cy:open": "cypress open",
+      "cy:record": "cypress run --record --key 2fba11ac-fc84-4b6d-a795-9f452d3ffa15"
   },
   "keywords": [],
   "author": "@luanacosta05",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^9.6.1"
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "cypress-image-snapshot": "^4.0.1"
   }
 }
