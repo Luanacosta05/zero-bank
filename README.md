@@ -16,7 +16,7 @@ It showcases the use of:
 
 ### Local Installation
 
-- Run `$ cd ZeroBank && npm install` to install cypress in the project folder
+- Run `$ cd zero-bank && npm install` to install cypress in the project folder
 
 ### Docker Installation
 
